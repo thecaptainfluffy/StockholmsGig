@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<div><iframe src="components/navbarMusic.html"></div>
+<!-- This is what you should do:
+- Kolla upp reachJS - https://reactjs.org/ och redux
+- https://material-ui.com/ javascript biblotek
+
+- Du har skapat objects, som lagras i en array
+- Kolla hur du kan hämta denna info
+- Hur du kan skapa html objects med HTML
+
+Sen!!!!!!
+- Kolla upp backend javascript som: nodeJS - https://nodejs.org/en/
+ -->
+<script>
+var bands = {
+AC/DC : {username: "acdc", name: "AC/DC", genre: "ROCK"},
+AsILayDying: {username: "asilaydying", name: "As I Lay Dying", genre: "ROCK"},
+AnyGivenDay: {username: "anygivenday", name: "Any Given Day", genre: "ROCK"}
+}
+var allBands = [];
+
+for(var key in bands) {
+	allBands.push(bands[key]);
+}
+/*function load_home() {
+     document.getElementById("content").innerHTML='<object type="text/html" data="/components/bandInfo.html" ></object>';
+	 
+}*/
+p = document.createElement('p');
+	p.text = allbands[0]["username"];
+	document.body.appendChild(p);
+var i = 0;
+var p;
+for(allbands.size > i) {
+	
+}
+</script>

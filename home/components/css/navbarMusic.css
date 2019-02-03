@@ -1,0 +1,44 @@
+nav {
+	text-align: center;
+	background-color: #D2691E;
+	border: 3px solid brown;
+	margin: 0xp;
+}
+
+nav input {
+}
+
+nav input:before {
+
+}
+
+
+nav input[type="checkbox"] {
+	display: none;
+}
+
+nav input[type="checkbox"]:checked + label {
+	transition: all 0.3s;
+	background-color: orange;
+}
+
+nav label {
+	display: inline-block;
+	webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+	padding: 12px;
+	margin: 0px;
+}
+
+nav label:before {
+
+}
+
+nav label:hover {
+	transition: all 0.5s;
+	cursor: pointer;
+	background-color: rgb(255, 175, 71, 0.4);
+}
